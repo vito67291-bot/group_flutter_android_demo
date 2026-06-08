@@ -24,8 +24,8 @@ class GroupFlutterAndroidApp extends StatelessWidget {
 class TeamAndroidHomePage extends StatelessWidget {
   const TeamAndroidHomePage({super.key});
 
-  static const String projectTitle = '星火小组 Android 真机运行展示';
-  static const String projectSlogan = '用 GitHub 协作完成一次 Flutter 应用真机运行';
+  static const String projectTitle = '星火小组 · Flutter Android 真机协作实战';
+  static const String projectSlogan = 'Git 协作 + Flutter 开发 + Android 真机部署，一步到位';
   static const String deviceProof = '最终证据：用第二部手机拍摄手持 Android 真机运行照片，并加入 GitHub README。';
 
   static const List<TeamMember> members = [
@@ -50,6 +50,11 @@ class TeamAndroidHomePage extends StatelessWidget {
     '不能使用手机直接截图代替照片。',
     '必须用第二部手机拍摄，并拍到手持真机。',
     '照片需发到小组，并加入 GitHub README。',
+    '照片必须清晰展示应用界面在真机上的实际运行状态，不能模糊或遮挡。',
+    '至少拍摄 2 张照片：一张正面展示应用界面，一张侧面展示手持真机与电脑连接线。',
+    '照片中需能辨认手机品牌或型号，以证明是真机而非模拟器。',
+    '拍照时注意光线充足，确保屏幕内容和手机外观同时可见。',
+    '照片必须为原始拍摄文件，禁止使用任何修图软件处理或裁剪。',
   ];
 
   @override
