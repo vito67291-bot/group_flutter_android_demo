@@ -56,6 +56,8 @@ class TeamAndroidHomePage extends StatelessWidget {
     '使用 adb devices 确认设备状态为 device',
     '使用 flutter doctor 和 flutter devices 检查环境',
     '使用 flutter run 在真实手机上运行应用',
+
+    '组员C 完成更改 androidTasks'
   ];
 
   static const List<String> evidenceNotes = [
